@@ -1,7 +1,7 @@
 public class SeaBattle {
     public static void main(String[] args){
     Board Sea= new Board();
-    //Sea.MakeBoard();
+    Sea.MakeBoard();
 
     FourSails fourSails = new FourSails();
     fourSails.setLength(4);
@@ -9,7 +9,7 @@ public class SeaBattle {
     ThreeSails threeSails1=new ThreeSails();
     threeSails1.setLength(3);
     threeSails1.LocationOfShip(Sea.board);
-   /* ThreeSails threeSails2=new ThreeSails();
+   ThreeSails threeSails2=new ThreeSails();
     threeSails2.setLength(3);
     threeSails2.LocationOfShip(Sea.board);
     TwoSails twoSails1=new TwoSails();
@@ -32,8 +32,9 @@ public class SeaBattle {
         oneSails3.LocationOfShip(Sea.board);
         OneSails oneSails4=new OneSails();
         oneSails4.setLength(1);
-        oneSails4.LocationOfShip(Sea.board);*/
-    Sea.GiveBoard();
+        oneSails4.LocationOfShip(Sea.board);
+        Sea.MakeBoard();
+        Sea.GiveBoard();
 
     }
 }
