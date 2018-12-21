@@ -25,7 +25,7 @@ public class SeaBattle {
         oneSails1.setLength(1);
         oneSails1.LocationOfShip(Sea.board);
         OneSails oneSails2=new OneSails();
-        oneSails1.setLength(1);
+        oneSails2.setLength(1);
         oneSails2.LocationOfShip(Sea.board);
         OneSails oneSails3=new OneSails();
         oneSails3.setLength(1);
